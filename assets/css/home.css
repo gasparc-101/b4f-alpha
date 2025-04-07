@@ -1,0 +1,61 @@
+/*Pagina Inicial*/
+
+#home-main {
+    height: calc(100vh - 10vh);
+  }
+
+  .home-link {
+    color: #a5d7e8 !important;
+  }
+  main > #hero {
+    display: grid;
+    place-items: center;
+    position: relative;
+    height: auto;
+    top: 20%;
+    gap: 2.9rem;
+  }
+  
+  main > #hero .img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-image: url("/assets/images/GC.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  main > #hero > h2 {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+    line-height: 1.3;
+    text-align: center;
+    font-weight: 900;
+  }
+  
+  main > #hero span {
+    font-size: 1.125rem;
+    margin-right: 10px;
+  }
+  
+  main > #hero > .buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  
+  main > #hero .thick-line {
+    border-top: 1px solid #a5d7e8;
+    width: 100px;
+  }
+  
+  main > #hero > .buttons button {
+    height: 45px;
+    width: 155px;
+    border-radius: 30px;
+    font-size: 0.875rem;
+    cursor: pointer;
+  }
+  
