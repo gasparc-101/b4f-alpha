@@ -51,7 +51,7 @@ p {
 
 
 #all {
-  background-image: url("/assets/images/binary-fundo.jpeg");
+  background-image: url("../images/binary-fundo.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
