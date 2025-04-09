@@ -13,6 +13,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 4.5rem;
+    
   }
   
   #proj-main > h2 {
@@ -65,7 +67,6 @@
   #proj-main .project {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5rem;
     height: 360px;
     width: 70%;
     gap: 2rem;
